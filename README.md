@@ -2,6 +2,9 @@
 
 Dataset is based on anonymized real-world paid media performance data across Google, Facebook, and TikTok.
 
+📊 Dashboard
+📂 [Dataset](dataset.csv)
+
 ## What This Project Demonstrates
 
 - Marketing performance analysis
