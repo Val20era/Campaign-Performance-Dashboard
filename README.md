@@ -1,2 +1,53 @@
-# Campaign-Performance-Dashboard
-Performance Marketing Dashboard in Power BI for analyzing paid acquisition across Facebook, Google, and TikTok.
+Performance Marketing Dashboard (Power BI)
+
+
+## Data
+
+Synthetic dataset simulating paid media performance across 3 platforms.
+
+## What This Project Demonstrates
+
+- Marketing performance analysis
+- KPI-driven dashboard design
+- Business-oriented data storytelling
+- Power BI data modeling and DAX skills
+  
+## Business Context
+
+This dashboard was built to monitor paid acquisition performance across Facebook, Google, and TikTok.
+
+The goal was to:
+- Track marketing efficiency (CPA, ROAS)
+- Identify top-performing campaigns and ads
+- Analyze conversion trends by platform
+- Support budget reallocation decisions
+
+  ## Key Metrics
+
+- CTR = Clicks / Impressions
+- CVR = Conversions / Clicks
+- CPA = Spend / Conversions
+- ROAS = Revenue / Spend
+
+  ## Dashboard Structure
+
+1. KPI overview section — high-level performance metrics
+2. Campaign breakdown — top campaigns by selected metric
+3. Ad-level performance — granular efficiency analysis
+4. Trend analysis — daily performance trends by platform
+5. Dynamic metric selector to switch between Conversions, Revenue, Spend
+
+## Key Insights
+
+- TikTok drives the highest conversion volume but has volatile CPA.
+- Google campaigns show the most stable ROAS.
+- Influencer_Collab campaign contributes 28% of total conversions.
+- Retargeting campaigns demonstrate the highest CVR.
+
+## Technical Implementation
+
+- Dynamic metric selector using disconnected table
+- Top N filtering with dynamic sorting
+- Time intelligence (WoW comparison)
+- Conditional formatting for KPI growth
+- Drill-through functionality for ad-level analysis
