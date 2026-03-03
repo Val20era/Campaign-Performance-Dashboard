@@ -1,9 +1,6 @@
-Performance Marketing Dashboard (Power BI)
+# Performance Marketing Dashboard (Power BI)
 
-
-## Data
-
-Synthetic dataset simulating paid media performance across 3 platforms.
+Dataset is based on anonymized real-world paid media performance data across Google, Facebook, and TikTok.
 
 ## What This Project Demonstrates
 
@@ -22,14 +19,17 @@ The goal was to:
 - Analyze conversion trends by platform
 - Support budget reallocation decisions
 
-  ## Key Metrics
+## Metrics
 
-- CTR = Clicks / Impressions
-- CVR = Conversions / Clicks
-- CPA = Spend / Conversions
-- ROAS = Revenue / Spend
+- CTR, CPC
+- CVR, CPA, CR
+- ROAS, RPC
+- CPM, Frequency
+- Engagement Rate
+- Video View Rates (25%, 50%, 75%, 100%)
+- Quality Score, Search Impression Share
 
-  ## Dashboard Structure
+## Dashboard Structure
 
 1. KPI overview section — high-level performance metrics
 2. Campaign breakdown — top campaigns by selected metric
