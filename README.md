@@ -4,7 +4,7 @@ Tools: Power BI, Dax
 
 Dataset is based on anonymized real-world paid media performance data across Google, Facebook, and TikTok.
 
-📊 [Dashboard](Campaign-Performance-Dashboard.pbix)
+📊 [Dashboard](Campaign%20Performance%20Dashboard.pbix)
 📂 [Dataset](dataset.csv)
 
 ## What This Project Demonstrates
