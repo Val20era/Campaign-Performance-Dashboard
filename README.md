@@ -1,6 +1,6 @@
 # Performance Marketing Dashboard
 
-Tools: Power BI, Dax
+Tools: Power BI, DAX
 
 Dataset is based on anonymized real-world paid media performance data across Google, Facebook, and TikTok.
 
