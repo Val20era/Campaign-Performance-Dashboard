@@ -4,7 +4,7 @@ Tools: Power BI, Dax
 
 Dataset is based on anonymized real-world paid media performance data across Google, Facebook, and TikTok.
 
-📊 Dashboard
+📊 [Dashboard](Campaign-Performance-Dashboard.pbix)
 📂 [Dataset](dataset.csv)
 
 ## What This Project Demonstrates
@@ -16,8 +16,6 @@ Dataset is based on anonymized real-world paid media performance data across Goo
   
 ## Business Context
 
-This dashboard was built to monitor paid acquisition performance across Facebook, Google, and TikTok.
-
 The goal was to:
 - Track marketing efficiency (CPA, ROAS)
 - Identify top-performing campaigns and ads
@@ -26,6 +24,8 @@ The goal was to:
 
 ## Metrics
 
+- Clicks, Conversions
+- Likes, Shares, Comments
 - CTR, CPC
 - CVR, CPA, CR
 - ROAS, RPC
@@ -40,19 +40,19 @@ The goal was to:
 2. Campaign breakdown — top campaigns by selected metric
 3. Ad-level performance — granular efficiency analysis
 4. Trend analysis — daily performance trends by platform
-5. Dynamic metric selector to switch between Conversions, Revenue, Spend
+5. Dynamic metric selector to switch between metrics
+
+![Dashboard Overview](overview.png)
 
 ## Key Insights
 
-- TikTok drives the highest conversion volume but has volatile CPA.
-- Google campaigns show the most stable ROAS.
-- Influencer_Collab campaign contributes 28% of total conversions.
-- Retargeting campaigns demonstrate the highest CVR.
+- Google drives the highest revenue efficiency and conversion performance.
+- Facebook retargeting delivers the lowest CPA.
+- TikTok generates strong traffic volume but weaker conversion efficiency.
+- Budget reallocation toward high-intent and retargeting campaigns is recommended.
 
-## Technical Implementation
+## Identified Cases
 
-- Dynamic metric selector using disconnected table
-- Top N filtering with dynamic sorting
-- Time intelligence (WoW comparison)
-- Conditional formatting for KPI growth
-- Drill-through functionality for ad-level analysis
+- **Google – Search_Generic_Terms**: highest CPA and lowest quality metrics despite the largest budget allocation.
+- **Facebook – Video_Views_Campaign**: strong video engagement but weak CTR and CR, indicating pre-click creative mismatch.
+- **TikTok – Conversion_Focus**: strong conversion rates but low engagement metrics, suggesting creative optimization potential.
